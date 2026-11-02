@@ -1,0 +1,29 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+table {
+    width: 75%;
+}
+
+.confirmed {
+    background-color: green;
+}
+
+.cancelled {
+    background-color: red;
+}
+
+.pending {
+    background-color: yellow;
+}
