@@ -4,16 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Project</title>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
     <header>
-        <div>
-            <h1>My awesome restaurant</h1>
+        <div class="navigation">
+            <h1>Justin's Chik'n Palace</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="togo.html">To Go</a>
+            </nav>
         </div>
     </header>
-    <section>
-        <h2>Welcome to your favorite place</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eaque exercitationem et ipsam alias dolorum tempore possimus praesentium, iste eveniet quod doloremque animi facilis magni excepturi, sint earum suscipit similique distinctio accusamus fuga nobis. Facilis officiis tenetur ea ex!</p>
+
+    <section class="hero">
+        <h2>Welcome to Justin's Chik'n Palace</h2>
+        <p>The best fried chicken in Southern California</p>
+    </section>
+
+    <section class="container">
+        <div class="dish-month">
+            <img src="chicken.jpg" alt="Chicken Master Signature Dish">
+            <div class="dish-month-description">
+                <h2>Chicken Master</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eaque exercitationem et ipsam alias dolorum tempore possimus praesentium, iste eveniet quod doloremque animi facilis magni excepturi, sint earum suscipit similique distinctio accusamus fuga nobis. Facilis officiis tenetur ea ex!</p>
+            </div>
+        </div>   
+    </section>
+
+    <section class="container menu-dishes">
+        <div class="dish-card">
+            <img src="chicken sandwich.jpg" alt="signature chicken sandwich">
+            <p>$15.00</p>
+            <h3>Chicken Sandwich</h3>
+            <p>Chef's signature crispy chicken breast with pickles, slaw, and secret sauce on a brioche bun.</p>
+        </div>
+        <div class="dish-card">
+            <img src="chicken tenders.jpg" alt="signature chicken tenders">
+            <p>$11.00</p>
+            <h3>Chicken Tenders</h3>
+            <p>Chef's signature hand-breaded chrispy chicken tenders served with beef tallow fries and ranch dressing.</p>
+        </div>
     </section>
 </body>
 </html>
