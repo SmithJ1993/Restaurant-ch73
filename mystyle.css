@@ -50,14 +50,15 @@ img{
 /*menu dishes*/
 .menu-dishes{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 16px;
 }
 .dish-card{
     width: 350px;
     padding: 20px;
-    background-color: beige;
-    border-radius: 10%;
+    background-color: rgb(115, 115, 112);
+    border-radius: 10px;
     border: 1px solid;
 }
 .dish-card img{
@@ -118,4 +119,30 @@ border-radius: 5px;
 .btn:hover{
     background-color: #444;
     cursor: pointer;
+}
+@media (min-width: 768px) {
+    .dish-month {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dish-month {
+        background-color: green; 
+        font-size: 2rem;
+    }
+}
+@media (max-width:760px){
+    .navigation{
+        flex-direction: column;
+    }
+    .dish-month{
+        flex-direction: column;
+    }
+    .dish-month{
+        width: 100%;
+    }
+    .dish-month-description{
+        width: 100%;
+    }
 }
